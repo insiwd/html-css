@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 8px;
+        }
+
+        h1#titulo {
+            text-align: center;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 8px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 9px;
+        }
+
+        footer > p {
+            margin: 1px;
+        }
+
+        nav {
+            background-color: lightblue;
+            padding: 5px;
+            box-shadow: 3px 3px 5px 0px rgba(48, 80, 107, 0.589);
+            border-radius: 6px;
+        }
+
+        nav > a {
+            font-weight: bold;
+            color: rgb(48, 79, 107);
+            text-decoration: none;
+            padding: 2px;
+                    }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: lightblue;
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section> 
+
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quas adipisci harum impedit quasi repellat tenetur voluptate eos amet ea, rerum quisquam iure eveniet sapiente, ex eaque doloribus mollitia odio!</p>
+                <aside>
+                    - artigo por jujuba
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por ruan</p>
+    </footer>
+</body>
+</html>
